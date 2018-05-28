@@ -75,8 +75,7 @@
 			background-color: rgba(0,0,0, .78); 
 			width: 100%; 
 			min-height: 600px; 
-			display:inline-block;
-			margin-top: 84px;
+			display:inline-block; 
 			color: white
 		}
 		.seccion2{
@@ -111,6 +110,16 @@
 			display:inline-block; 
 			color: #fff
 		}
+		.seccion6{
+			width: 100%;
+			min-height: 620px;
+			display: flex; 
+			color: white;
+			flex-direction: column;
+			text-align: center;
+			justify-content: center; 
+			background: #0000004d;
+		}
 		.card-header{
 		    padding: 1.5rem 1.25rem;
 			background-color: rgb(232, 232, 232);
@@ -125,7 +134,7 @@
 		<video src="video/file.mp4" loop="true" autoplay="true" role="presentation" preload="auto" muted="" style="width: 100%; position:fixed;"></video>
 	</div>
 	<div class="pagina" style="">
-		<nav class="bg-light fixed-top " style="height: 84px;">
+		<nav class="bg-light fixed-top " style="height: 84px;" id="navbar-example2">
 			<nav class="navbar navbar-expand-lg navbar-light fixed-top " style="height: 84px;max-width: 1100px;margin: auto;">	
 			  	<a class="navbar-brand" href="#">AS ACCOUNTING</a>
 			  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -134,22 +143,22 @@
 			  	<div class="collapse navbar-collapse bg-light " id="navbarSupportedContent">
 			    	<ul class="navbar-nav ml-auto">
 			      		<li class="nav-item">
-			      			<a href="" class="nav-link">
+			      			<a class="nav-link" href="#seccion1" >
 			      				ASESORIAS
 			      			</a>
 			      		</li>
 			      		<li class="nav-item">
-			        		<a class="nav-link" href="#">
+			        		<a class="nav-link" href="#seccion3" >
 			        			SOBRE NOSOTROS                     
 			        		</a>
 			      		</li>  
-			      		<li class="nav-item">
-			      			<a href="" class="nav-link">
+			      		<li class="nav-item" >
+			      			<a class="nav-link" href="#seccion2"  >
 			      				CLIENTES
 			      			</a>
 			      		</li>
 			      		<li class="nav-item">
-			      			<a href="" class="nav-link">
+			      			<a class="nav-link" href="#seccion4"  >
 			      				CONTACTANOS
 			      			</a>
 			      		</li>
@@ -157,214 +166,237 @@
 			  	</div>
 			</nav>
 		</nav>
-		<div class="seccion seccion1">
-			<div class="item">
-				<div class="titulo">
-					<h1>Asesoría Contable y Financiera</h1>				   
-				</div>
-				<div class="contenido">				
-					<div class="custom-control custom-checkbox">
-					  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
-					  	<label class="custom-control-label" for="customCheck1">
-							Asesoramiento contable permanente de la empresa.
-					 	</label>
+		<div data-spy="scroll" data-target="#navbar-example2">
+			<div class="seccion seccion6">
+				<div class="item">
+					<div class="titulo">
+						<h1>Consultoria Contable</h1>				   
 					</div>
-					<div class="custom-control custom-checkbox">
-					  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
-					  	<label class="custom-control-label" for="customCheck1">
-							Análisis de la información económica-financiera de la empresa para que pueda tomar la mejor decisión para sus intereses.
-					 	</label>
+					<div class="contenido">				
+						Asegúrate el éxito de tu compañía.
+						Estrategias. Organización. Globalización. 				
 					</div>
-					<div class="custom-control custom-checkbox">
-					  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
-					  	<label class="custom-control-label" for="customCheck1">
-							Análisis e interpretación de balances.
-					 	</label>
-					</div>
-					<div class="custom-control custom-checkbox">
-					  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
-					  	<label class="custom-control-label" for="customCheck1">
-							Elaboración de cuentas anuales y depósito en el Registro Mercantil.
-					 	</label>
-					</div>
-					<div class="custom-control custom-checkbox">
-					  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
-					  	<label class="custom-control-label" for="customCheck1">
-							Supervisión de la contabilidad y cierre de ejercicio económico.
-					 	</label>
-					</div>
-					<div class="custom-control custom-checkbox">
-					  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
-					  	<label class="custom-control-label" for="customCheck1">
-							 Análisis de inversiones, sus posibles alternativas y efectos en la empresa.
-					 	</label>
-					</div> 
-					<div class="custom-control custom-checkbox">
-					  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
-					  	<label class="custom-control-label" for="customCheck1">
-							 Diseño, elaboración y seguimiento del plan de negocio.
-					 	</label>
-					</div> 
-					<div class="custom-control custom-checkbox">
-					  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
-					  	<label class="custom-control-label" for="customCheck1">Valoración de empresas ante la posible compra o venta. 		Valoración de empresas ante la posible compra o venta. 
-					 	</label>
-					</div> 				
-				</div>
-			</div> 
-			<div class="item">
-				<div class="titulo">
-					<h2>Contabilidad empresas</h2>				   
-				</div>
-				<div class="contenido">				
-					<div class="custom-control custom-checkbox">
-					  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
-					  	<label class="custom-control-label" for="customCheck1">
-							Organización de la contabilidad.
-					 	</label>
-					</div>
-					<div class="custom-control custom-checkbox">
-					  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
-					  	<label class="custom-control-label" for="customCheck1">
-							Legalización de libros contables.
-					 	</label>
-					</div>
-					<div class="custom-control custom-checkbox">
-					  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
-					  	<label class="custom-control-label" for="customCheck1">
-							Gestión de asientos contables, apertura y cierre del ejercicio.
-					 	</label>
-					</div>	
-					<div class="custom-control custom-checkbox">
-					  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
-					  	<label class="custom-control-label" for="customCheck1">
-							Presentación de libros y cuentas anuales.
-					 	</label>
-					</div>
-					<div class="custom-control custom-checkbox">
-					  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
-					  	<label class="custom-control-label" for="customCheck1">
-							Amortizaciones y provisiones.
-					 	</label>
-					</div>
-					<div class="custom-control custom-checkbox">
-					  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
-					  	<label class="custom-control-label" for="customCheck1">
-							Análisis de datos y principales ratios.
-					 	</label>
-					</div>
-					<div class="custom-control custom-checkbox">
-					  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
-					  	<label class="custom-control-label" for="customCheck1">
-							Actualización de contabilidades atrasadas.
-					 	</label>
-					</div>
-					<div class="custom-control custom-checkbox">
-					  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
-					  	<label class="custom-control-label" for="customCheck1">
-							Estudio y revisión de contabilidades.
-					 	</label>
-					</div>
-					<div class="custom-control custom-checkbox">
-					  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
-					  	<label class="custom-control-label" for="customCheck1">
-							Diseño de planes de contabilidad.
-					 	</label>
-					</div>
-					<div class="custom-control custom-checkbox">
-					  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
-					  	<label class="custom-control-label" for="customCheck1">
-							Elaboración de los estados financieros.
-					 	</label>
-					</div>
-					<div class="custom-control custom-checkbox">
-					  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
-					  	<label class="custom-control-label" for="customCheck1">
-							Depósito de las cuentas anuales.
-					 	</label>
-					</div>
-					<div class="custom-control custom-checkbox">
-					  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
-					  	<label class="custom-control-label" for="customCheck1">
-							Contabilidad financiera.
-					 	</label>
-					</div>
-					<div class="custom-control custom-checkbox">
-					  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
-					  	<label class="custom-control-label" for="customCheck1">
-							Gestión contable profesional.
-					 	</label>
-					</div>
-
-				</div>
-			</div>				
-			<br><br>
-		</div>
-		<div class="seccion seccion3"><br>
-			<h1>SOBRE NOSOTROS</h1><br>
-			<div class="contenido3">
-				Somos una empresa que ha laborado mas de 10 años en el área de asesorías contables, laboral, financiero y tributario, la cual cada día que pasa vamos perfeccionando y ampliando mas nuestros sueños de poder expandirnos por toda Colombia para que así conozcan nuestros servicios que son hechos con honestidad, fe publica, excelencia y calidad, e ir desarrollando nuevos servicios que aceleren el crecimiento y desarrollo de los clientes investigando sus necesidad.
+				</div>  				
 				<br><br>
 			</div>
-			<a href="#" class="btn btn-light  mt-3" style="min-width: 180px" data-toggle="modal" data-target="#datosGenerales">
-				Saber más
-			</a>
-		</div>
-		<div class="seccion seccion2">
-			<h1>CLIENTES</h1>
-			<div class="contenido2">
-				Nuestra asesoría de empresas ofrece sus servicios
-				de asesoramiento Contable, jurídico, financiero, Laborales entre otros servicios a más de 50.000 clientes. 
-				Conozca las opiniones y experiencias que nos han hecho llegar.
-				<div class="row" style="width: 100%">
-					<div class="col-4"><img src="img/1.png" alt=""></div>
-					<div class="col-4"><img src="img/2.png" alt=""></div>
-					<div class="col-4"><img src="img/3.png" alt=""></div>
-					<div class="col-4"><img src="img/4.png" alt=""></div>
-					<div class="col-4"><img src="img/5.png" alt=""></div>
-					<div class="col-4"><img src="img/6.png" alt=""></div>
-		
+			<div class="seccion seccion1">
+				<div id="seccion1" style="position: absolute;top: -62px;">
 				</div>
-			</div>
-		</div>
-		<div class="seccion seccion4">
-			<h1>CONTÁCTANOS</h1> 
-			<div class="contenido5 row justify-content-center">
-				<div class="col-5">
-					<div class="card text-secondary" style="height: 100%;border:0">
-					  	Cali-CALLE 22N # 5BN-4<br>
-						asesoriasaccont@serviciosvarios.com<br>
-						Tel: 3188157335/3122086164
-						<iframe scrolling="no" title="Google Maps" aria-label="Google Maps" src="https://static.parastorage.com/services/santa/1.3510.42/static/external/googleMap.html?language=es&title='hola'" width="100%" height="100%" frameborder="0"></iframe>
+				<div class="item">
+					<div class="titulo">
+						<h1>Asesoría Contable y Financiera</h1>				   
 					</div>
-				</div>
-				<div class="col-5">
-					<div class="card text-secondary" style="border:0">
-					  	 <input type="text" class="form-control" placeholder="Nombre">
-					  	 <input type="text" class="form-control mt-2" placeholder="E-mail">
-					  	 <input type="text" class="form-control mt-2" placeholder="Asunto">
-					  	 <textarea class="form-control mt-2" placeholder="Mensaje" rows="10"></textarea>
-					  	 <button class="btn btn-dark btn-block mt-2">
-					  	 	Enviar Mensaje
-					  	 </button>
+					<div class="contenido">				
+						<div class="custom-control custom-checkbox">
+						  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+						  	<label class="custom-control-label" for="customCheck1">
+								Asesoramiento contable permanente de la empresa.
+						 	</label>
+						</div>
+						<div class="custom-control custom-checkbox">
+						  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+						  	<label class="custom-control-label" for="customCheck1">
+								Análisis de la información económica-financiera de la empresa para que pueda tomar la mejor decisión para sus intereses.
+						 	</label>
+						</div>
+						<div class="custom-control custom-checkbox">
+						  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+						  	<label class="custom-control-label" for="customCheck1">
+								Análisis e interpretación de balances.
+						 	</label>
+						</div>
+						<div class="custom-control custom-checkbox">
+						  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+						  	<label class="custom-control-label" for="customCheck1">
+								Elaboración de cuentas anuales y depósito en el Registro Mercantil.
+						 	</label>
+						</div>
+						<div class="custom-control custom-checkbox">
+						  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+						  	<label class="custom-control-label" for="customCheck1">
+								Supervisión de la contabilidad y cierre de ejercicio económico.
+						 	</label>
+						</div>
+						<div class="custom-control custom-checkbox">
+						  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+						  	<label class="custom-control-label" for="customCheck1">
+								 Análisis de inversiones, sus posibles alternativas y efectos en la empresa.
+						 	</label>
+						</div> 
+						<div class="custom-control custom-checkbox">
+						  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+						  	<label class="custom-control-label" for="customCheck1">
+								 Diseño, elaboración y seguimiento del plan de negocio.
+						 	</label>
+						</div> 
+						<div class="custom-control custom-checkbox">
+						  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+						  	<label class="custom-control-label" for="customCheck1">Valoración de empresas ante la posible compra o venta. 		Valoración de empresas ante la posible compra o venta. 
+						 	</label>
+						</div> 				
 					</div>
-				</div>
-			</div>
-		</div>
+				</div> 
+				<div class="item">
+					<div class="titulo">
+						<h2>Contabilidad empresas</h2>				   
+					</div>
+					<div class="contenido">				
+						<div class="custom-control custom-checkbox">
+						  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+						  	<label class="custom-control-label" for="customCheck1">
+								Organización de la contabilidad.
+						 	</label>
+						</div>
+						<div class="custom-control custom-checkbox">
+						  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+						  	<label class="custom-control-label" for="customCheck1">
+								Legalización de libros contables.
+						 	</label>
+						</div>
+						<div class="custom-control custom-checkbox">
+						  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+						  	<label class="custom-control-label" for="customCheck1">
+								Gestión de asientos contables, apertura y cierre del ejercicio.
+						 	</label>
+						</div>	
+						<div class="custom-control custom-checkbox">
+						  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+						  	<label class="custom-control-label" for="customCheck1">
+								Presentación de libros y cuentas anuales.
+						 	</label>
+						</div>
+						<div class="custom-control custom-checkbox">
+						  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+						  	<label class="custom-control-label" for="customCheck1">
+								Amortizaciones y provisiones.
+						 	</label>
+						</div>
+						<div class="custom-control custom-checkbox">
+						  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+						  	<label class="custom-control-label" for="customCheck1">
+								Análisis de datos y principales ratios.
+						 	</label>
+						</div>
+						<div class="custom-control custom-checkbox">
+						  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+						  	<label class="custom-control-label" for="customCheck1">
+								Actualización de contabilidades atrasadas.
+						 	</label>
+						</div>
+						<div class="custom-control custom-checkbox">
+						  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+						  	<label class="custom-control-label" for="customCheck1">
+								Estudio y revisión de contabilidades.
+						 	</label>
+						</div>
+						<div class="custom-control custom-checkbox">
+						  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+						  	<label class="custom-control-label" for="customCheck1">
+								Diseño de planes de contabilidad.
+						 	</label>
+						</div>
+						<div class="custom-control custom-checkbox">
+						  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+						  	<label class="custom-control-label" for="customCheck1">
+								Elaboración de los estados financieros.
+						 	</label>
+						</div>
+						<div class="custom-control custom-checkbox">
+						  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+						  	<label class="custom-control-label" for="customCheck1">
+								Depósito de las cuentas anuales.
+						 	</label>
+						</div>
+						<div class="custom-control custom-checkbox">
+						  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+						  	<label class="custom-control-label" for="customCheck1">
+								Contabilidad financiera.
+						 	</label>
+						</div>
+						<div class="custom-control custom-checkbox">
+						  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+						  	<label class="custom-control-label" for="customCheck1">
+								Gestión contable profesional.
+						 	</label>
+						</div>
 
-		<div class="seccion seccion5">
-			© 2018 AS ACCOUNTING
-			<div style="float: right;" class="social"> 
-				<a href="#" class="text-light facebook" style="padding: 5px;font-size: 1.5rem;">
-					<i class="ion-social-facebook"></i>	
-				</a>
-				<a href="#" class="text-light twitter" style="padding: 5px;font-size: 1.5rem;">
-					<i class="ion-social-twitter"></i>	
-				</a>
-				<a href="#" class="text-light google" style="padding: 5px;font-size: 1.5rem;">
-					<i class="ion-social-googleplus"></i>	
-				</a> 
+					</div>
+				</div>				
+				<br><br>
 			</div>
+			<div class="seccion seccion3">
+				<div id="seccion3" style="position: absolute;top: -62px;">
+				</div><br>
+				<h1>SOBRE NOSOTROS</h1><br>
+				<div class="contenido3">
+					Somos una empresa que ha laborado mas de 10 años en el área de asesorías contables, laboral, financiero y tributario, la cual cada día que pasa vamos perfeccionando y ampliando mas nuestros sueños de poder expandirnos por toda Colombia para que así conozcan nuestros servicios que son hechos con honestidad, fe publica, excelencia y calidad, e ir desarrollando nuevos servicios que aceleren el crecimiento y desarrollo de los clientes investigando sus necesidad.
+					<br><br>
+				</div>
+				<a href="#" class="btn btn-light  mt-3" style="min-width: 180px" data-toggle="modal" data-target="#datosGenerales">
+					Saber más
+				</a>
+			</div>
+			<div class="seccion seccion2">
+				<div id="seccion2" style="position: absolute;top: -62px;">
+				</div>
+				<h1>CLIENTES</h1>
+				<div class="contenido2">
+					Nuestra asesoría de empresas ofrece sus servicios
+					de asesoramiento Contable, jurídico, financiero, Laborales entre otros servicios a más de 50.000 clientes. 
+					Conozca las opiniones y experiencias que nos han hecho llegar.
+					<div class="row" style="width: 100%">
+						<div class="col-4"><img src="img/1.png" alt=""></div>
+						<div class="col-4"><img src="img/2.png" alt=""></div>
+						<div class="col-4"><img src="img/3.png" alt=""></div>
+						<div class="col-4"><img src="img/4.png" alt=""></div>
+						<div class="col-4"><img src="img/5.png" alt=""></div>
+						<div class="col-4"><img src="img/6.png" alt=""></div>
+			
+					</div>
+				</div>
+			</div>
+			<div class="seccion seccion4">
+				<div id="seccion4" style="position: absolute;top: -62px;">
+				</div>
+				<h1>CONTÁCTANOS</h1> 
+				<div class="contenido5 row justify-content-center">
+					<div class="col-5">
+						<div class="card text-secondary" style="height: 100%;border:0">
+						  	Cali-CALLE 22N # 5BN-4<br>
+							asesoriasaccont@serviciosvarios.com<br>
+							Tel: 3188157335/3122086164
+							<iframe scrolling="no" title="Google Maps" aria-label="Google Maps" src="https://static.parastorage.com/services/santa/1.3510.42/static/external/googleMap.html?language=es&title='hola'" width="100%" height="100%" frameborder="0"></iframe>
+						</div>
+					</div>
+					<div class="col-5">
+						<div class="card text-secondary" style="border:0">
+						  	 <input type="text" class="form-control" placeholder="Nombre">
+						  	 <input type="text" class="form-control mt-2" placeholder="E-mail">
+						  	 <input type="text" class="form-control mt-2" placeholder="Asunto">
+						  	 <textarea class="form-control mt-2" placeholder="Mensaje" rows="10"></textarea>
+						  	 <button class="btn btn-dark btn-block mt-2">
+						  	 	Enviar Mensaje
+						  	 </button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="seccion seccion5">
+				© 2018 AS ACCOUNTING
+				<div style="float: right;" class="social"> 
+					<a href="#" class="text-light facebook" style="padding: 5px;font-size: 1.5rem;">
+						<i class="ion-social-facebook"></i>	
+					</a>
+					<a href="#" class="text-light twitter" style="padding: 5px;font-size: 1.5rem;">
+						<i class="ion-social-twitter"></i>	
+					</a>
+					<a href="#" class="text-light google" style="padding: 5px;font-size: 1.5rem;">
+						<i class="ion-social-googleplus"></i>	
+					</a> 
+				</div>
+			</div>
+
 		</div>
 	</div>	
 	<script src="js/jquery-3.2.1.slim.min.js"></script>
