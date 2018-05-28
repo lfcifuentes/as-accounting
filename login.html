@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>As Accounting</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/lato/lato.css">
+	<link rel="stylesheet" href="ion/css/ionicons.css">
+	<style type="text/css">
+		*{
+			outline: 0
+		}
+		body{
+			font-family: 'lato'
+		}
+		.btn{
+			border-radius: 0
+		}
+		.seccion{
+			position: relative;
+		}
+		.seccion .titulo h1{
+			text-align: center;
+			margin-top: 20px;/*
+			font-size: 55px;*/
+		}
+		.seccion .titulo h2{
+			text-align: center;
+			margin-top: 20px;/*
+			font-size: 43px;*/
+		}
+		.seccion2  h1{
+			text-align: center; 
+			margin-bottom: 32px;/*
+			font-size: 65px;*/
+			font-weight: 300
+		}
+		.seccion3 h1{
+			text-align: center; 
+			margin-bottom: 32px;/*
+			font-size: 65px;*/
+			font-weight: 300
+		}
+		.seccion4 h1{
+			text-align: center; 
+			margin-bottom: 32px;/*
+			font-size: 65px;*/
+			font-weight: 300
+		}
+		.seccion .contenido{
+			width: 560px;
+			margin:auto;
+		}
+		.seccion .contenido2{
+			width: 710px;
+			margin:auto;
+		}
+		.seccion .contenido3{
+			width: 710px;
+			margin:auto;
+			text-align: justify;
+			font-size: 1.17rem
+		}
+		.seccion .contenido4{
+			width: 710px;
+			margin:auto;
+			font-size: 1.17rem
+		}
+		.seccion .contenido5{
+			width: 100%;
+			margin:auto;
+		}
+		.seccion1{
+			background-color: rgba(0,0,0, .78); 
+			width: 100%; 
+			min-height: 600px; 
+			display:inline-block; 
+			color: white
+		}
+		.seccion2{
+			padding: 35px 0 ;
+			background-color:  #575757; 
+			text-align: center;
+			width: 100%;  
+			display:inline-block; 
+			color: white
+		} 
+		.seccion3{
+			padding: 35px 0 ;
+			background-color:rgba(0,0,0, .95); 
+			text-align: center;
+			width: 100%;  
+			display:inline-block; 
+			color: white
+		}
+		.seccion4{
+			padding: 35px 0 ;
+			background-color: #fff; 
+			text-align: center;
+			width: 100%;  
+			display:inline-block; 
+			color: #333
+		}
+		.seccion5{
+			padding: 30px 40px;
+			background-color: #333; 
+			text-align: left;
+			width: 100%;  
+			display:inline-block; 
+			color: #fff
+		}
+		.seccion6{
+			width: 100%;
+			min-height: 620px;
+			display: flex; 
+			color: white;
+			flex-direction: column;
+			text-align: center;
+			justify-content: center; 
+			background: rgba(0,0,0,.3);
+		}
+		.card-header{
+		    padding: 1.5rem 1.25rem;
+			background-color: rgb(232, 232, 232);
+		}
+		.card-body{
+			padding:2rem 
+		}
+	@media (max-width: 767px){ 
+		.seccion .contenido, 
+		.seccion .contenido2,
+		.seccion .contenido3,
+		.seccion .contenido4{
+			width: 91%; 
+			margin:auto; 
+		}	 
+		h1{
+			font-size: 2rem !important
+		}
+		html{
+			overflow-x: hidden;
+		}
+		video{
+			margin-top: 55px;
+		}
+		.navbar-collapse{
+			padding:20px; 
+		}
+    }
+	</style>
+</head>
+<body>	
+	<div>
+		<video src="video/file.mp4" loop="true" autoplay="true" role="presentation" preload="auto" muted="" 
+		style="
+		left: -50px;
+		top: -60px;
+		width:auto; 
+		position:fixed;
+		min-height: 100%;"></video>
+	</div>
+	<div class="pagina" style="">
+		<nav class="bg-light fixed-top " style="height: 84px;" id="navbar-example2">
+			<nav class="navbar navbar-expand-lg navbar-light fixed-top " style="height: 84px;max-width: 1100px;margin: auto;">	
+			  	<a class="navbar-brand" href="#">AS ACCOUNTING</a>
+			  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    	<span class="navbar-toggler-icon"></span>
+			  	</button> 
+			  	<div class="collapse navbar-collapse bg-light " id="navbarSupportedContent">
+			    	<ul class="navbar-nav ml-auto">
+			      		<li class="nav-item">
+			      			<a class="nav-link" href="#seccion1" >
+			      				ASESORIAS
+			      			</a>
+			      		</li>
+			      		<li class="nav-item">
+			        		<a class="nav-link" href="#seccion3" >
+			        			SOBRE NOSOTROS                     
+			        		</a>
+			      		</li>  
+			      		<li class="nav-item" >
+			      			<a class="nav-link" href="#seccion2"  >
+			      				CLIENTES
+			      			</a>
+			      		</li>
+			      		<li class="nav-item">
+			      			<a class="nav-link" href="#seccion4"  >
+			      				CONTACTANOS
+			      			</a>
+			      		</li>
+			    	</ul> 
+			  	</div>
+			</nav>
+		</nav>
+		<div data-spy="scroll" data-target="#navbar-example2">
+			<div class="seccion seccion6">
+				<div class="item">
+					<div class="titulo">
+						<h1>Consultoria Contable</h1>				   
+					</div>
+					<div class="contenido">				
+						<h3>
+							Potencia tu compañía.
+						</h3> 
+						<b>
+							Organización. Cumplimiento. Eficiencia.  				
+						</b>
+					</div>
+				</div>  				
+				<br><br>
+			</div>
+			<div class="seccion seccion1">
+				<div id="seccion1" style="position: absolute;top: -62px;">
+				</div>
+				<div class="row justify-content-center" style="margin:0;padding-top:30px;"> 
+					<div class="col-xs-11 col-md-5">
+						<div class="item">
+							<div class="titulo">
+								<h1>Contabilidad empresas</h1>				   
+							</div>
+							<div class="contenido">				
+								<div class="custom-control custom-checkbox">
+								  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+								  	<label class="custom-control-label" for="customCheck1">
+										Organización de la contabilidad.
+								 	</label>
+								</div>
+								<div class="custom-control custom-checkbox">
+								  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+								  	<label class="custom-control-label" for="customCheck1">
+										Legalización de libros contables.
+								 	</label>
+								</div>
+								<div class="custom-control custom-checkbox">
+								  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+								  	<label class="custom-control-label" for="customCheck1">
+										Gestión de asientos contables, apertura y cierre del ejercicio.
+								 	</label>
+								</div>	
+								<div class="custom-control custom-checkbox">
+								  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+								  	<label class="custom-control-label" for="customCheck1">
+										Presentación de libros y cuentas anuales.
+								 	</label>
+								</div>
+								<div class="custom-control custom-checkbox">
+								  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+								  	<label class="custom-control-label" for="customCheck1">
+										Amortizaciones y provisiones.
+								 	</label>
+								</div>
+								<div class="custom-control custom-checkbox">
+								  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+								  	<label class="custom-control-label" for="customCheck1">
+										Análisis de datos y principales ratios.
+								 	</label>
+								</div>
+								<div class="custom-control custom-checkbox">
+								  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+								  	<label class="custom-control-label" for="customCheck1">
+										Actualización de contabilidades atrasadas.
+								 	</label>
+								</div>
+								<div class="custom-control custom-checkbox">
+								  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+								  	<label class="custom-control-label" for="customCheck1">
+										Estudio y revisión de contabilidades.
+								 	</label>
+								</div>
+								<div class="custom-control custom-checkbox">
+								  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+								  	<label class="custom-control-label" for="customCheck1">
+										Diseño de planes de contabilidad.
+								 	</label>
+								</div>
+								<div class="custom-control custom-checkbox">
+								  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+								  	<label class="custom-control-label" for="customCheck1">
+										Elaboración de los estados financieros.
+								 	</label>
+								</div>
+								<div class="custom-control custom-checkbox">
+								  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+								  	<label class="custom-control-label" for="customCheck1">
+										Depósito de las cuentas anuales.
+								 	</label>
+								</div>
+								<div class="custom-control custom-checkbox">
+								  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+								  	<label class="custom-control-label" for="customCheck1">
+										Contabilidad financiera.
+								 	</label>
+								</div>
+								<div class="custom-control custom-checkbox">
+								  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+								  	<label class="custom-control-label" for="customCheck1">
+										Gestión contable profesional.
+								 	</label>
+								</div>
+
+							</div>
+						</div>	
+					</div>
+					<div class="col-xs-11 col-md-5">
+						<div class="item">
+							<div class="titulo">
+								<h1>Asesoría Contable y Financiera</h1>				   
+							</div>
+							<div class="contenido">				
+								<div class="custom-control custom-checkbox">
+								  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+								  	<label class="custom-control-label" for="customCheck1">
+										Asesoramiento contable permanente de la empresa.
+								 	</label>
+								</div>
+								<div class="custom-control custom-checkbox">
+								  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+								  	<label class="custom-control-label" for="customCheck1">
+										Análisis de la información económica-financiera de la empresa para que pueda tomar la mejor decisión para sus intereses.
+								 	</label>
+								</div>
+								<div class="custom-control custom-checkbox">
+								  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+								  	<label class="custom-control-label" for="customCheck1">
+										Análisis e interpretación de balances.
+								 	</label>
+								</div>
+								<div class="custom-control custom-checkbox">
+								  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+								  	<label class="custom-control-label" for="customCheck1">
+										Elaboración de cuentas anuales y depósito en el Registro Mercantil.
+								 	</label>
+								</div>
+								<div class="custom-control custom-checkbox">
+								  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+								  	<label class="custom-control-label" for="customCheck1">
+										Supervisión de la contabilidad y cierre de ejercicio económico.
+								 	</label>
+								</div>
+								<div class="custom-control custom-checkbox">
+								  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+								  	<label class="custom-control-label" for="customCheck1">
+										 Análisis de inversiones, sus posibles alternativas y efectos en la empresa.
+								 	</label>
+								</div> 
+								<div class="custom-control custom-checkbox">
+								  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+								  	<label class="custom-control-label" for="customCheck1">
+										 Diseño, elaboración y seguimiento del plan de negocio.
+								 	</label>
+								</div> 
+								<div class="custom-control custom-checkbox">
+								  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
+								  	<label class="custom-control-label" for="customCheck1">Valoración de empresas ante la posible compra o venta. 		Valoración de empresas ante la posible compra o venta. 
+								 	</label>
+								</div> 				
+							</div>
+						</div> 
+					</div>
+				</div>								
+				<br><br>
+			</div> 
+
+			<div class="seccion seccion5">
+				 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				 © 2018 AS ACCOUNTING
+				<div style="float: right;" class="social"> 
+					<a href="#" class="text-light facebook" style="padding: 5px;font-size: 1.5rem;">
+						<i class="ion-social-facebook"></i>	
+					</a>
+					<a href="#" class="text-light twitter" style="padding: 5px;font-size: 1.5rem;">
+						<i class="ion-social-twitter"></i>	
+					</a>
+					<a href="#" class="text-light google" style="padding: 5px;font-size: 1.5rem;">
+						<i class="ion-social-googleplus"></i>	
+					</a> 
+				</div>
+			</div>
+
+		</div>
+	</div>	
+	<script src="js/jquery-3.2.1.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<style type="text/css">
+		.social .facebook:hover{
+			color:#3b5998 !important;
+			text-decoration: none
+		}
+		.social .twitter:hover{
+			color:#1da1f2 !important;
+			text-decoration: none
+		}
+		.social .google:hover{
+			color:#ea4335 !important;
+			text-decoration: none
+		} 
+		.login{
+			width: 60px;
+	    	height: 60px;
+		    background: #007bff;
+		    position: fixed;
+		    bottom: 15px;
+		    left: 15px;
+		    border-radius: 30px;
+		    line-height: 57px; 
+			padding-left:22px;
+		    transition-duration: .2s;
+		    cursor: pointer;
+	        box-shadow:2px 3px 5px 0 rgba(33, 33, 33, 0.650980)
+		}
+		.login:hover{
+			width: 180px;
+			text-align: left;
+			color: white !important;
+			box-shadow: none;
+		}
+		.login:hover span{
+			margin-left: 5px; 
+		}
+	</style>
+</body>
+</html>
