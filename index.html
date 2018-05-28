@@ -22,30 +22,30 @@
 		}
 		.seccion .titulo h1{
 			text-align: center;
-			margin-top: 20px;
-			font-size: 55px;
+			margin-top: 20px;/*
+			font-size: 55px;*/
 		}
 		.seccion .titulo h2{
 			text-align: center;
-			margin-top: 20px;
-			font-size: 43px;
+			margin-top: 20px;/*
+			font-size: 43px;*/
 		}
 		.seccion2  h1{
 			text-align: center; 
-			margin-bottom: 32px;
-			font-size: 65px;
+			margin-bottom: 32px;/*
+			font-size: 65px;*/
 			font-weight: 300
 		}
 		.seccion3 h1{
 			text-align: center; 
-			margin-bottom: 32px;
-			font-size: 65px;
+			margin-bottom: 32px;/*
+			font-size: 65px;*/
 			font-weight: 300
 		}
 		.seccion4 h1{
 			text-align: center; 
-			margin-bottom: 32px;
-			font-size: 65px;
+			margin-bottom: 32px;/*
+			font-size: 65px;*/
 			font-weight: 300
 		}
 		.seccion .contenido{
@@ -142,6 +142,12 @@
 		}
 		.seccion .contenido4{
 			width: 100%; 
+		}	 
+		h1{
+			font-size: 2.5rem !important
+		}
+		html{
+			overflow-x: hidden;
 		}
     }
 
@@ -405,7 +411,8 @@
 			</div>
 
 			<div class="seccion seccion5">
-				© 2018 AS ACCOUNTING
+				 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				 © 2018 AS ACCOUNTING
 				<div style="float: right;" class="social"> 
 					<a href="#" class="text-light facebook" style="padding: 5px;font-size: 1.5rem;">
 						<i class="ion-social-facebook"></i>	
@@ -470,5 +477,34 @@
 		    </div>
 	  	</div>
 	</div>
+	<a class="login" style=""> 
+		<i class="ion-person" style="color: white; font-size: 22px"></i>
+		<span>
+			Acceso Usuarios
+		</span>
+	</a>
+	<style>
+		.login{
+			width: 60px;
+	    	height: 60px;
+		    background: #007bff;
+		    position: fixed;
+		    bottom: 15px;
+		    left: 15px;
+		    border-radius: 30px;
+		    line-height: 57px; 
+			padding-left:22px;
+		    transition-duration: .2s;
+		    cursor: pointer;
+		}
+		.login:hover{
+			width: 180px;
+			text-align: left;
+			color: white !important
+		}
+		.login:hover span{
+			margin-left: 5px; 
+		}
+	</style>
 </body>
 </html>
