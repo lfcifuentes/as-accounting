@@ -20,6 +20,11 @@
 		.seccion{
 			position: relative;
 		}
+		.seccion .titulo h1{
+			text-align: center;
+			margin-top: 20px;
+			font-size: 48px;
+		}
 		.seccion .titulo h2{
 			text-align: center;
 			margin-top: 20px;
@@ -155,7 +160,7 @@
 		<div class="seccion seccion1">
 			<div class="item">
 				<div class="titulo">
-					<h2>Asesoría Contable y Financiera</h2>				   
+					<h1>Asesoría Contable y Financiera</h1>				   
 				</div>
 				<div class="contenido">				
 					<div class="custom-control custom-checkbox">
@@ -202,7 +207,7 @@
 					</div> 
 					<div class="custom-control custom-checkbox">
 					  	<input type="checkbox" class="custom-control-input"  checked="" readonly="">
-					  	<label class="custom-control-label" for="customCheck1">Valoración de empresas ante la posible compra o venta. 		Diseño, elaboración y seguimiento del plan de negocio.
+					  	<label class="custom-control-label" for="customCheck1">Valoración de empresas ante la posible compra o venta. 		Valoración de empresas ante la posible compra o venta. 
 					 	</label>
 					</div> 				
 				</div>
@@ -301,7 +306,7 @@
 				Somos una empresa que ha laborado mas de 10 años en el área de asesorías contables, laboral, financiero y tributario, la cual cada día que pasa vamos perfeccionando y ampliando mas nuestros sueños de poder expandirnos por toda Colombia para que así conozcan nuestros servicios que son hechos con honestidad, fe publica, excelencia y calidad, e ir desarrollando nuevos servicios que aceleren el crecimiento y desarrollo de los clientes investigando sus necesidad.
 				<br><br>
 			</div>
-			<a href="#" class="btn btn-light  mt-3" style="min-width: 180px">
+			<a href="#" class="btn btn-light  mt-3" style="min-width: 180px" data-toggle="modal" data-target="#datosGenerales">
 				Saber más
 			</a>
 		</div>
@@ -379,5 +384,37 @@
 			text-decoration: none
 		}
 	</style>
+	<!-- Modal -->
+	<div class="modal fade" id="datosGenerales" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  	<div class="modal-dialog  modal-lg" role="document">
+	    	<div class="modal-content">
+		      	<div class="modal-body">		        
+					<center>
+						<h3>MISIÓN	</h3>	
+					</center>
+					Ofrecer servicios de asesorías en las empresas o personas colombianas satisfaciendo las necesidades de los clientes, acelerando su propio desarrollo, apoyándonos en la tecnología para así reducir costos y tiempo, brindando seguridad y control del proceso que se este realizando.  
+
+					As Accounting cumple las normas legales y genera impacto en Colombia en el área contable
+					
+					<center>	
+						<h3>VISIÓN</h3>
+					</center>
+
+					Para el año 2025, ser la empresa de asesorías pionera en el mercado dando un desarrollo, satisfacción y calidad en el servicio manejando la tecnología en el trabajo financiero, para así dar solidez de los servicios prestados.
+					
+					<center>
+						<h3>OBJETIVO</h3>
+					</center>
+					Brindar asesorías a nuestros clientes en el manejo de su contabilidad, para que tengan una mayor rentabilidad en sus negocios, prestando les un servicio en tiempos estipulados, nuestra app se adaptara a las necesidades de cada cliente para entregarles informes de cada área que se necesite y se utilizaran tarifas muy cómodas para nuestros clientes.
+		      	</div>
+		      	<div class="modal-footer justify-content-center">
+			        <button type="button" class="btn btn-secondary" style="min-width: 130px;" data-dismiss="modal">
+			        	<i class="ion-close"></i>
+			        	Cerrar
+			        </button> 
+			    </div>
+		    </div>
+	  	</div>
+	</div>
 </body>
 </html>
